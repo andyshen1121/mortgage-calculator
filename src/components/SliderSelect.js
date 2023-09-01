@@ -1,9 +1,18 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+import SliderComponent from './common/SliderComponent'
 
 const SliderSelect = () => {
-  return (
-    <div>SliderSelect</div>
-  )
+    return (
+        <Fragment>
+            <SliderComponent />
+            <SliderComponent />
+            <SliderComponent />
+            <SliderComponent />
+        </Fragment>
+
+
+
+    )
 }
 
 export default SliderSelect
